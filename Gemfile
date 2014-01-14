@@ -10,7 +10,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'turbolinks'    
 gem 'jbuilder', '~> 1.0.1'
-
+gem 'bootstrap-sass', '~> 3.0.3.0'
 # The asset_sync gem is WELL worth using
 # but you should read more about it before deciding
 # https://github.com/rumblelabs/asset_sync
@@ -31,3 +31,7 @@ end
 group :doc do
   gem 'sdoc', require: false
 end
+
+#group :assets do
+#	gem 'bootstrap-sass', '~> 3.0.3.0'
+#end
